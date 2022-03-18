@@ -1,3 +1,7 @@
+.body {
+  width: 100px;
+}
+
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: #333;
@@ -25,3 +29,6 @@
   background-color: #04AA6D;
   color: white;
 }
+
+/* Used for navbar (like rounded pills) */
+
