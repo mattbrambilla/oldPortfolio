@@ -29,3 +29,16 @@
   background-color: #04AA6D;
   color: white;
 }
+
+/* Profile pic */
+.profilepic {
+  /* width: 300px; */
+  height: 300px;
+  margin-left: 60%;
+}
+
+.welcomemsg {
+  font-size: 70px;
+  font-weight: 400;
+  padding-top: 100px;
+}
