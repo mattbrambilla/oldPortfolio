@@ -34,7 +34,11 @@
 .profilepic {
   /* width: 300px; */
   height: 300px;
-  margin-left: 60%;
+  width: 300px;
+  float: right;
+  padding: 20px;
+  border: #6f7a7e1c 10px solid;
+  border-radius: 100%;
 }
 
 .welcomemsg {
