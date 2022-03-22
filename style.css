@@ -41,8 +41,43 @@
   border-radius: 100%;
 }
 
+/* Media rule for smartphone */
+@media screen and (max-width: 500px)  {
+  .profilepic {
+    height: 150px;
+    width: 150px;
+    float: right;
+    padding: 20px;
+    border: #6f7a7e1c 10px solid;
+    border-radius: 100%;
+  }
+}
+
 .welcomemsg {
-  font-size: 70px;
   font-weight: 400;
-  padding-top: 100px;
+}
+
+/* Custom class to distanciate the element */
+.bio {
+  padding-top: 50px;
+}
+
+.nav-element {
+  background: 0 0;
+  border: 0;
+  border-radius: .25rem;
+  display: block;
+  padding: .5rem 1rem;
+  color: #2e2e2eab;
+  text-decoration: none;
+}
+
+.nav-element : :active {{
+  color: #fff;
+  background-color: #0d6efd;
+}}
+
+a {
+  color: #0d6efd;
+  text-decoration: underline;
 }
