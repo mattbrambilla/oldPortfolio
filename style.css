@@ -149,12 +149,12 @@ a :active {
 /* Media rule for smartphone */
 @media screen and (max-width: 500px)  {
   .profilepic {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     float: right;
     border: #6f7a7e1c 10px solid;
     border-radius: 100%;
-    margin: 5px;
+    margin: 5px;    
   }
 
   .welcomemsg {
