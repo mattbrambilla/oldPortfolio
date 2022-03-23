@@ -154,12 +154,11 @@ a :active {
     float: right;
     border: #6f7a7e1c 10px solid;
     border-radius: 100%;
-    margin: 5px;    
   }
 
   .welcomemsg {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 45px;
     color: #2e2e2e;
   }
 
