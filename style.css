@@ -1,11 +1,14 @@
 .body {
   width: 100%;
+  font-family: 'Helvetica Neue';
+  height: auto;
 }
 
 /* Add a black background color to the top navigation */
-.navbar {
-  background-color: #333;
+.nav {
+  background-color: rgb(245, 245, 245);
   overflow: hidden;
+  border-radius: 2.99rem;
 }
 
 /* Style the links inside the navigation bar */
@@ -40,26 +43,6 @@
   border-radius: 100%;
 }
 
-/* Media rule for smartphone */
-@media screen and (max-width: 500px)  {
-  .profilepic {
-    height: 150px;
-    width: 150px;
-    float: right;
-    border: #6f7a7e1c 10px solid;
-    border-radius: 100%;
-    margin: 5px;
-  }
-
-  .welcomemsg {
-    font-weight: 200;
-    font-size: 30px;
-    color: #2e2e2e;
-  }
-
-
-}
-
 .welcomemsg {
   font-weight: 200;
   font-size: 80px;
@@ -68,8 +51,11 @@
 
 /* Custom class to distanciate the element */
 .bio {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* Navbar element */
@@ -81,6 +67,7 @@
   padding: .5rem 1rem;
   color: #111111ab;
   text-decoration: none;
+  /* background-color: aliceblue; */
 }
 
 .nav-element.active,
@@ -155,4 +142,33 @@ a :active {
   border: 0;
   border-radius: 2.99rem;
   padding: .5rem 1rem;
+}
+
+
+
+/* Media rule for smartphone */
+@media screen and (max-width: 500px)  {
+  .profilepic {
+    height: 150px;
+    width: 150px;
+    float: right;
+    border: #6f7a7e1c 10px solid;
+    border-radius: 100%;
+    margin: 5px;
+  }
+
+  .welcomemsg {
+    font-weight: 400;
+    font-size: 30px;
+    color: #2e2e2e;
+  }
+
+  .bio {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+  }
+
 }
