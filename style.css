@@ -6,7 +6,7 @@
 
 /* Add a black background color to the top navigation */
 .navbar {
-  background-color: rgb(245, 245, 245);
+  background-color: rgba(245, 245, 245, 0.541);
   overflow: hidden;
   height: auto;
 }
@@ -23,8 +23,8 @@
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: rgb(169, 240, 175);
-  color: black;
+  background-color: rgb(245, 245, 245);
+  color: rgb(37, 37, 37) !important;
 }
 
 /* Add a color to the active/current link */
@@ -144,6 +144,9 @@ a :active {
   padding: .5rem 1rem;
 }
 
+.navtext {
+  font-size: smaller !important;
+}
 
 
 /* Media rule for smartphone */
@@ -169,5 +172,4 @@ a :active {
     max-width: 1000px;
     margin: auto;
   }
-
 }
