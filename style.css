@@ -6,9 +6,12 @@
 
 /* Add a black background color to the top navigation */
 .navbar {
-  background-color: rgba(245, 245, 245, 0.541);
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
   height: auto;
+  width: 100%;
+  position: fixed;
+  z-index: 1030; /* to prevent the navbar getting covered up by other content */
 }
 
 /* Style the links inside the navigation bar */
@@ -33,6 +36,12 @@
   color: white !important;
 }
 
+.navbar a:focus {
+  background-color: #04AA6D;
+  color: white !important;
+}
+
+
 /* Profile pic */
 .profilepic {
   /* width: 300px; */
@@ -41,7 +50,7 @@
   float: right;
   border: #6f7a7e1c 10px solid;
   border-radius: 100%;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 
 .welcomemsg {
@@ -51,12 +60,21 @@
 }
 
 /* Custom class to distanciate the element */
-.bio {
+.homesection {
   padding-top: 2vh;
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  height: 100vh;
+  height: auto;
+}
+
+
+.sectionspec {
+  padding-top: 20vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  height: auto;
 }
 
 /* Navbar element */
@@ -156,6 +174,20 @@ a :active {
   text-align: center;
 }
 
+.textcenter {
+  text-align: center;
+}
+
+/* The alternate section */
+.homesection {
+  padding-top: 2vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  height: auto;
+}
+
+
 /* Media rule for smartphone */
 @media screen and (max-width: 500px)  {
   .profilepic {
@@ -164,7 +196,7 @@ a :active {
     float: right;
     border: #6f7a7e1c 10px solid;
     border-radius: 100%;
-    margin-top: 10vh;
+    margin-top: 20vh;
   }
 
   .welcomemsg {
@@ -178,6 +210,6 @@ a :active {
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    height: 100vh;
+    height: auto;
   }
 }
