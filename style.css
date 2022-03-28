@@ -51,7 +51,7 @@
   float: right;
   border: #6f7a7e1c 10px solid;
   border-radius: 100%;
-  margin-top: 20vh;
+  margin-top: 17vh;
 }
 
 .welcomemsg {
@@ -59,6 +59,15 @@
   font-size: 80px;
   color: #2e2e2e;
 }
+
+
+.sectiontitle {
+  font-weight: 200;
+  font-size: 80px;
+  color: #2e2e2e;
+  padding-top: 10vh;
+}
+
 
 /* Custom class to distanciate the element */
 .homesection {
@@ -71,12 +80,11 @@
 
 
 .sectionspec {
-  padding-top: 20vh;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  height: 100vh;
-  height: 100vh;
+    padding-top: 20vh;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
 }
 
 /* Navbar element */
@@ -180,31 +188,28 @@ a :active {
   text-align: center;
 }
 
-/* The alternate section */
-.homesection {
-  padding-top: 2vh;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  height: auto;
-}
-
-
 /* Media rule for smartphone */
 @media screen and (max-width: 500px)  {
   .profilepic {
     height: 200px;
     width: 200px;
-    float: right;
+    float: center;
     border: #6f7a7e1c 10px solid;
     border-radius: 100%;
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
 
   .welcomemsg {
     font-weight: 200;
     font-size: 60px;
     color: #2e2e2e;
+  }
+
+  .sectiontitle {
+    font-weight: 200;
+    font-size: 60px;
+    color: #2e2e2e;
+    padding-top: 10vh;
   }
 
   .bio {
