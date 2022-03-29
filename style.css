@@ -12,7 +12,8 @@
   height: auto;
   width: 100%;
   position: fixed;
-  z-index: 1030; /* to prevent the navbar getting covered up by other content */
+  z-index: 1030;
+  /* to prevent the navbar getting covered up by other content */
 }
 
 /* Style the links inside the navigation bar */
@@ -66,6 +67,7 @@
   font-size: 80px;
   color: #2e2e2e;
   padding-top: 30vh;
+  padding-bottom: 5vh;
 }
 
 
@@ -80,10 +82,10 @@
 
 
 .sectionspec {
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    height: 100vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  height: 100vh;
 }
 
 /* Navbar element */
@@ -99,7 +101,7 @@
 }
 
 .nav-element.active,
-.show > .nav-link {
+.show>.nav-link {
   color: #fff;
   background-color: #38b17e;
 }
@@ -187,8 +189,48 @@ a :active {
   text-align: center;
 }
 
+.contact-form {
+  margin-top: 15px;
+}
+
+.contact-form .textarea {
+  min-height: 220px;
+  resize: none;
+}
+
+.form-control {
+  box-shadow: none;
+  border-color: #eee;
+  height: 49px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #00b09c;
+}
+
+.form-control-feedback {
+  line-height: 50px;
+}
+
+.main-btn {
+  background: #00b09c;
+  border-color: #00b09c;
+  color: #fff;
+}
+
+.main-btn:hover {
+  background: #00a491;
+  color: #fff;
+}
+
+.form-control-feedback {
+  line-height: 50px;
+  top: 0px;
+}
+
 /* Media rule for smartphone */
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
   .profilepic {
     height: 200px;
     width: 200px;
