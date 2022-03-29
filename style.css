@@ -129,9 +129,10 @@ a :active {
   color: #fff;
   background-color: #424242;
   border: 0;
-  border-radius: 2.99rem;
-  padding: .5rem 1rem;
+  border-radius: 3rem;
   margin: 5px;
+  height: 70px;
+  width: 70px;
 }
 
 .btn-github:hover {
@@ -139,16 +140,16 @@ a :active {
   background-color: #050505;
   border: 0;
   border-radius: 2.99rem;
-  padding: .5rem 1rem;
 }
 
 .btn-instagram {
   color: #fff;
   background-color: #cc4c8c;
   border: 0;
-  border-radius: 2.99rem;
-  padding: .5rem 1rem;
+  border-radius: 3rem;
   margin: 5px;
+  height: 70px;
+  width: 70px;
 }
 
 .btn-instagram:hover {
@@ -156,7 +157,6 @@ a :active {
   background-color: #b13774;
   border: 0;
   border-radius: 2.99rem;
-  padding: .5rem 1rem;
 }
 
 
@@ -164,9 +164,10 @@ a :active {
   color: #fff;
   background-color: #4c9dcc;
   border: 0;
-  border-radius: 2.99rem;
-  padding: .5rem 1rem;
+  border-radius: 3rem;
   margin: 5px;
+  height: 70px;
+  width: 70px;
 }
 
 .btn-twitter:hover {
@@ -174,7 +175,6 @@ a :active {
   background-color: #2c78a5;
   border: 0;
   border-radius: 2.99rem;
-  padding: .5rem 1rem;
 }
 
 .navtext {
