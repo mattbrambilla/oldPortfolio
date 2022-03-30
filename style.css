@@ -111,11 +111,6 @@ a {
   text-decoration: underline;
 }
 
-a :active {
-  color: #38b17e !important;
-  text-decoration: underline;
-}
-
 
 .btn-primario {
   color: #fff;
@@ -123,6 +118,7 @@ a :active {
   border: 0;
   border-radius: 2.99rem;
   padding: .5rem 1rem;
+  margin-top: 10px;
 }
 
 .btn-github {
