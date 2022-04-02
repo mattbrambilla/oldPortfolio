@@ -234,7 +234,7 @@ a {
     float: center;
     border: #6f7a7e1c 10px solid;
     border-radius: 100%;
-    margin-top: 20vh;
+    margin-top: 15vh;
   }
 
   .welcomemsg {
@@ -270,3 +270,14 @@ a {
   border-radius: 0.45rem;
   margin-right: 10px;
 }
+
+/* Media rule for smartphone */
+@media screen and ( max-width 400px) {
+  .profilepic {
+    height: 200px;
+    width: 200px;
+    float: center;
+    border: #6f7a7e1c 10px solid;
+    border-radius: 100%;
+    margin-top: 10vh;
+  }
