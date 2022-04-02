@@ -6,6 +6,12 @@
   position: relative;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 17px;
+}
+
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: rgb(255, 255, 255);
@@ -54,6 +60,7 @@
   border: #6f7a7e1c 10px solid;
   border-radius: 100%;
   margin-top: 10vh;
+  margin-bottom: 3vh;
 }
 
 .welcomemsg {
@@ -87,6 +94,14 @@
   max-width: 1000px;
   margin: auto;
   height: 100vh;
+}
+
+.sectionalt {
+  width: 100%;
+  max-width: auto;
+  margin: auto;
+  height: 100vh;
+  background-color: #f1f1f1d2;
 }
 
 /* Navbar element */
@@ -174,6 +189,23 @@ a {
   border-radius: 2.99rem;
 }
 
+.btn-envelope {
+  color: #fff;
+  background-color: #0ab2a4;
+  border: 0;
+  border-radius: 3rem;
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+.btn-envelope:hover {
+  color: #fff;
+  background-color: #0e665e;
+  border: 0;
+  border-radius: 2.99rem;
+}
+
 .navtext {
   font-size: smaller !important;
 }
@@ -257,6 +289,23 @@ a {
     margin: auto;
     height: auto;
   }
+
+  .imgcontainer {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:20px;
+  }
+  
+  .zoomimg {
+    height: 100%;
+    width: 100%;
+    zoom: 55%;
+    object-fit:none;
+    border-radius: 100%;
+    border: #6f7a7e1c 10px solid;
+    object-position: 53% 40%;
+  }
 }
 
 .card {
@@ -278,7 +327,7 @@ a {
     flex-direction: column;
     font-size: 1.25rem;
     margin: 0 auto 1rem;
-    max-width: 40vh;
+    max-width: 60vh;
     padding: 0.5rem 1.0rem;
   }
   
@@ -382,3 +431,20 @@ a {
   .margin-t_one {
     margin-top: 1rem !important;
   } 
+
+.imgcontainer {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right:20px;
+}
+
+.zoomimg {
+  height: 100%;
+  width: 100%;
+  zoom: 55%;
+  object-fit:none;
+  border-radius: 100%;
+  border: #6f7a7e1c 10px solid;
+  object-position: 53% 40%;
+}
