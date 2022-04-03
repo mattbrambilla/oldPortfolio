@@ -7,8 +7,6 @@
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 10rem;
   font-size: 17px;
 }
 
@@ -82,9 +80,8 @@ p {
 .imgcontainer {
   width: 300px;
   height: 300px;
-  /* float: left; */
-  margin-right:20px;
-  float: right;
+  margin-right:30px;
+  float: left;
 }
 
 .zoomimg {
@@ -95,6 +92,7 @@ p {
   border-radius: 100%;
   border: #6f7a7e1c 10px solid;
   object-position: 53% 40%;
+  float: left;
 }
 
 /* Custom class to distanciate the element */
@@ -310,9 +308,10 @@ a {
   .imgcontainer {
     width: 300px;
     height: 300px;
-    margin-bottom: 50px;
-    margin: 20px;
-    float: bottom;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    position: relative;
+    object-position: 10%;
   }
   
   .zoomimg {
@@ -322,8 +321,9 @@ a {
     object-fit:none;
     border-radius: 100%;
     border: #6f7a7e1c 10px solid;
-    object-position: 53% 40%;
-    float: bottom;
+    object-position: 53% 38%;
+    min-width: 200px;
+    min-height: auto;
     float: left;
   }
 }
@@ -427,9 +427,3 @@ a {
     width: 10px;
   }
   
-
-
-.textbio {
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
