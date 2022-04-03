@@ -99,7 +99,7 @@ p {
 .homesection {
   padding-top: 2vh;
   width: 100%;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   margin: auto;
   height: 100vh;
 }
