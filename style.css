@@ -105,19 +105,13 @@ p {
   padding-bottom: 15rem;
 }
 
-
-.sectionspec {
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  height: 100%;
-}
-
 .sectionalt {
   width: 100%;
   max-width: 1000px;
   margin: auto;
   height: 100%;
+  padding-bottom: 200px;
+  padding-top: 100px;
 }
 
 /* Navbar element */
@@ -307,10 +301,11 @@ a {
   }
 
   .imgcontainer {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 10px;
-    margin-left: 80px;
+    width: auto;
+    height: auto;
+    margin-left: 88px;
+    margin-right:88px;
+    margin-bottom:30px;
     position: relative;
     object-position: 10%;
   }
@@ -428,3 +423,6 @@ a {
     width: 10px;
   }
   
+  .biotext {
+    margin: 10px;
+  }
