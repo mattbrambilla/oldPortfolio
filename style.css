@@ -101,7 +101,7 @@ p {
   width: 100%;
   /* max-width: 1000px; */
   margin: auto;
-  height: 100vh;
+  height: 100%;
 }
 
 
@@ -109,14 +109,14 @@ p {
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  height: 100vh;
+  height: 100%;
 }
 
 .sectionalt {
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  height: 100vh;
+  height: 100%;
 }
 
 /* Navbar element */
