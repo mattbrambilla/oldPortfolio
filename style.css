@@ -51,15 +51,25 @@ p {
 
 /* Profile pic */
 .profilepic {
-  /* width: 300px; */
   height: 300px;
   width: 300px;
   float: right;
   border: #6f7a7e1c 10px solid;
   border-radius: 100%;
-  margin-top: 10vh;
+  margin-top: 15vh;
   margin-bottom: 3vh;
 }
+
+.profilepic2 {
+  height: 300px;
+  width: 300px;
+  border: #6f7a7e1c 10px solid;
+  border-radius: 100%;
+  /* object-position: 53% 30%; */
+  /* object-fit:none; */
+  margin-left: 30px;
+}
+
 
 .welcomemsg {
   font-weight: 200;
@@ -76,7 +86,6 @@ p {
   padding-bottom: 5vh;
 }
 
-
 .imgcontainer {
   width: 300px;
   height: 300px;
@@ -92,17 +101,16 @@ p {
   border-radius: 100%;
   border: #6f7a7e1c 10px solid;
   object-position: 53% 40%;
-  float: left;
+  /* float: left; */
 }
 
 /* Custom class to distanciate the element */
 .homesection {
   padding-top: 2vh;
   width: 100%;
-  /* max-width: 1000px; */
+  max-width: 1000px;
   margin: auto;
   height: 100%;
-  padding-bottom: 15rem;
 }
 
 .sectionalt {
@@ -113,6 +121,16 @@ p {
   padding-bottom: 200px;
   padding-top: 100px;
 }
+
+.otsection {
+  padding-top: 2vh;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  height: 100%;
+  padding-bottom: 15rem;
+}
+
 
 /* Navbar element */
 .nav-element {
@@ -279,6 +297,15 @@ a {
     margin-top: 15vh;
   }
 
+   .pofilepic2 {
+    height: 200px;
+    width: 200px;
+    border: #6f7a7e1c 10px solid;
+    border-radius: 100%;
+    object-position: 53% 30%;
+    object-fit:none;
+  }
+
   .welcomemsg {
     font-weight: 200;
     font-size: 60px;
@@ -303,14 +330,24 @@ a {
   .imgcontainer {
     width: auto;
     height: auto;
-    margin-left: 88px;
-    margin-right:88px;
-    margin-bottom:30px;
+    margin-left: 80px;
+    margin-right:80px;
+    margin-bottom:80px;
     position: relative;
     object-position: 10%;
   }
   
   .zoomimg {
+    height: auto;
+    width: auto;
+    /* zoom: 55%; */
+    /* object-fit:none; */
+    border-radius: 0%;
+    border: #6f7a7e1c 10px solid;
+    /* object-position: 53% 38%; */
+  }
+
+  /* .zoomimg {
     height: 400px;
     width: 400px;
     zoom: 55%;
@@ -320,21 +357,8 @@ a {
     object-position: 53% 38%;
     min-width: 200px;
     min-height: auto;
-    float: left;
+    float: left; */
   }
-}
-
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
-  border-radius: 0.45rem;
-  margin-right: 10px;
-}
 
   .imessage {
     background-color: #fff;
