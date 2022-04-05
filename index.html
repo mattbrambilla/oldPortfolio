@@ -17,7 +17,6 @@
         <a href="#home" class="navtext active rounded-pill">Home</a>
         <a href="#bio" class="navtext rounded-pill">Bio</a>
         <a href="#portfolio" class="navtext text-dark rounded-pill">Portfolio</a>
-        <a href="#contacts" class="navtext text-dark rounded-pill">Contatti</a>
       </div>
   </nav>
   
@@ -34,6 +33,13 @@
             <p class="from-me"> Mi piace sviluppare interfacce web e siti</p>
           </div>
         </div>
+        <div class="container buttonspace">
+          <div class="container d-flex justify-content-center">
+            <a href="mailto:m.brambilla@live.it"> <button type="button" class="btn btn-envelope"><i class="fas fa-envelope fa-2xl"></i>  </button> </a>
+            <a href="https://github.com/mattbrambilla"> <button type="button" class="btn btn-github"><i class="fa-brands fa-github fa-2xl"></i> </button> </a>
+            <a href="https://www.instagram.com/matt.brambilla/"> <button type="button" class="btn btn-instagram"><i class="fa-brands fa-instagram fa-2xl"></i> </button> </a>
+            <a href="https://twitter.com/justMattDev"> <button type="button" class="btn btn-twitter"><i class="fa-brands fa-twitter fa-2xl"></i> </button> </a>
+          </div>
       </div>
   </section>
 
@@ -75,13 +81,10 @@
                   <h5 class="card-title">aGoodCandidate</h5>
                   <p class="card-text">Portale lavoro sviluppato con framework Bootstrap e Laravel</p>
                   <div class="d-flex justify-content-center">
-                    <a href="modalagc" class="btn btn-primario ">Visualizza</a>
+                    <a href="modal" class="btn btn-primario ">Mostra di più</a>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" id="modalagc">
-              ...
             </div>
             <div class="col-xs-12 col-sm-12 col-ms-6 col-lg-6">
               <div class="card">
@@ -96,22 +99,24 @@
               </div>
             </div>
           </div>
-      </section>
-      <section class="otsection" id="contacts">
-        <div class="col-12">
-          <div class="d-flex justify-content-center">
-            <h2 class="sectiontitle" id="contacts" alt="Responsive"> Contatti</h2>
-          </div>
-          <div class="container text-center">
-            <p>Se ti piacciono i miei lavori e ti interesserebbe iniziare una collaborazione con me ti prego di scrivermi via mail o tramite i social.</p>
-          </div>
-          <div class="container">
-            <div class="container d-flex justify-content-center">
-              <a href="mailto:m.brambilla@live.it"> <button type="button" class="btn btn-envelope"><i class="fas fa-envelope fa-2xl"></i> </button> </a>
-              <a href="https://github.com/mattbrambilla"> <button type="button" class="btn btn-github"><i class="fa-brands fa-github fa-2xl"></i> </button> </a>
-              <a href="https://www.instagram.com/matt.brambilla/"> <button type="button" class="btn btn-instagram"><i class="fa-brands fa-instagram fa-2xl"></i> </button> </a>
-              <a href="https://twitter.com/justMattDev"> <button type="button" class="btn btn-twitter"><i class="fa-brands fa-twitter fa-2xl"></i> </button> </a>
+          <div class="modal" tabindex="-1" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
             </div>
+          </div>
+
       </section>
       <footer>
         <!-- Copyright -->
