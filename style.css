@@ -454,10 +454,8 @@ a {
     padding-bottom: 100px;
   }
 
-  .projectheader {
+  .projecttxt {
     position: relative;
     margin-top: 100px;
-    width:500px
-    height:auto;
-    border-radius:1%;
+    font-size: 3rem;
   }
