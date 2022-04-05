@@ -29,6 +29,7 @@ p {
   padding: 8px 16px;
   text-decoration: none;
   font-size: 17px;
+  position: relative;
 }
 
 /* Change the color of links on hover */
@@ -451,4 +452,12 @@ a {
 
   .buttonspace {
     padding-bottom: 100px;
+  }
+
+  .projectheader {
+    position: relative;
+    margin-top: 100px;
+    width:500px
+    height:auto;
+    border-radius:1%;
   }
