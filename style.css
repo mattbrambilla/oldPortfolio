@@ -65,8 +65,6 @@ p {
   width: 300px;
   border: #6f7a7e1c 10px solid;
   border-radius: 100%;
-  /* object-position: 53% 30%; */
-  /* object-fit:none; */
   margin-left: 30px;
 }
 
@@ -297,13 +295,15 @@ a {
     margin-top: 15vh;
   }
 
-   .pofilepic2 {
-    height: 200px;
-    width: 200px;
-    border: #6f7a7e1c 10px solid;
-    border-radius: 100%;
-    object-position: 53% 30%;
-    object-fit:none;
+   .profilepic2  {
+      height: 200px;
+      width: 200px;
+      border: #6f7a7e1c 10px solid;
+      border-radius: 100%;
+      margin-left: 80px;
+      margin-bottom: 15px;
+    }
+    
   }
 
   .welcomemsg {
