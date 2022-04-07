@@ -411,3 +411,8 @@ p.from-them::after {
 .spaceup {
   margin-top: 20px;
 }
+
+.card-img-top {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
