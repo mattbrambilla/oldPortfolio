@@ -176,17 +176,17 @@ a {
   border: 0;
   border-radius: 2.99rem;
   padding: .5rem 1rem;
-  margin-top: 10px;
+  margin-top: 2;
 }
 
 .btn-social {
   border: 0;
   border-radius: 2.99rem;
   margin-right: 5px;
-  height: 35px;
-  width: 35px;
+  height: 55px;
+  width: 55px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .github {
@@ -446,4 +446,8 @@ p.from-them::after {
   width: 30px;
   height: 30px;
   margin: 7px;
+}
+
+.spaceup {
+  margin-top: 20px;
 }
