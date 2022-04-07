@@ -10,6 +10,10 @@ p {
   font-size: 17px;
 }
 
+.primary  {
+  background-color: #04aa6d;
+}
+
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: rgb(255, 255, 255);
@@ -88,7 +92,7 @@ p {
 .imgcontainer {
   width: 300px;
   height: 300px;
-  margin-right:30px;
+  margin-right: 30px;
   float: left;
 }
 
@@ -96,7 +100,7 @@ p {
   height: 100%;
   width: 100%;
   zoom: 55%;
-  object-fit:none;
+  object-fit: none;
   border-radius: 100%;
   border: #6f7a7e1c 10px solid;
   object-position: 53% 40%;
@@ -129,7 +133,7 @@ p {
   height: 100%;
 }
 
-.card{
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -138,7 +142,7 @@ p {
   background-color: #fff;
   background-clip: border-box;
   border-radius: 1.25rem;
-  border: 0,5px solid #e9e9e9;
+  border: 0, 5px solid #e9e9e9;
   margin-bottom: 100px;
 }
 
@@ -178,14 +182,17 @@ a {
 .btn-social {
   border: 0;
   border-radius: 2.99rem;
+  margin-right: 5px;
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .github {
   color: #fff;
   background-color: #424242;
-  margin: 5px;
-  height: 70px;
-  width: 70px;
+
 }
 
 .github:hover {
@@ -196,9 +203,6 @@ a {
 .instagram {
   color: #fff;
   background-color: #cc4c8c;
-  margin: 5px;
-  height: 70px;
-  width: 70px;
 }
 
 .instagram:hover {
@@ -210,9 +214,6 @@ a {
 .twitter {
   color: #fff;
   background-color: #4c9dcc;
-  margin: 5px;
-  height: 70px;
-  width: 70px;
 }
 
 .twitter:hover {
@@ -223,9 +224,6 @@ a {
 .envelope {
   color: #fff;
   background-color: #0ab2a4;
-  margin: 5px;
-  height: 70px;
-  width: 70px;
 }
 
 .envelope:hover {
@@ -296,14 +294,14 @@ a {
     margin-top: 10vh;
   }
 
-   .profilepic2  {
-      height: 200px;
-      width: 200px;
-      border: #6f7a7e1c 10px solid;
-      border-radius: 100%;
-      margin-left: 80px;
-      margin-bottom: 15px;
-    }
+  .profilepic2 {
+    height: 200px;
+    width: 200px;
+    border: #6f7a7e1c 10px solid;
+    border-radius: 100%;
+    margin-left: 80px;
+    margin-bottom: 15px;
+  }
 
   .welcomemsg {
     font-weight: 200;
@@ -330,12 +328,12 @@ a {
     width: auto;
     height: auto;
     margin-left: 80px;
-    margin-right:80px;
-    margin-bottom:80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
     position: relative;
     object-position: 10%;
   }
-  
+
   .zoomimg {
     height: auto;
     width: auto;
@@ -345,122 +343,107 @@ a {
     border: #6f7a7e1c 10px solid;
     /* object-position: 53% 38%; */
   }
+}
 
-  /* .zoomimg {
-    height: 400px;
-    width: 400px;
-    zoom: 55%;
-    object-fit:none;
-    border-radius: 100%;
-    border: #6f7a7e1c 10px solid;
-    object-position: 53% 38%;
-    min-width: 200px;
-    min-height: auto;
-    float: left; */
-  }
+.imessage {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  margin: 0 auto 1rem;
+  max-width: 60vh;
+  padding: 0.5rem 1.0rem;
+}
 
-  .imessage {
-    background-color: #fff;
-    border-radius: 0.25rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.25rem;
-    margin: 0 auto 1rem;
-    max-width: 60vh;
-    padding: 0.5rem 1.0rem;
-  }
-  
-  .imessage p {
-    border-radius: 1.15rem;
-    line-height: 1.25;
-    max-width: 100%;
-    padding: 0.5rem .875rem;
-    position: relative;
-    word-wrap: break-word;
-  }
-  
-  .imessage p::before,
-  .imessage p::after {
-    bottom: -0.1rem;
-    content: "";
-    height: 1rem;
-    position: absolute;
-  }
-  
-  p.from-me {
-    align-self: flex-end;
-    background-color: #04aa6d;
-    color: #fff; 
-  }
-  
-  p.from-me::before {
-    border-bottom-left-radius: 0.8rem 0.7rem;
-    border-right: 1rem solid #04aa6d;
-    right: -0.35rem;
-    transform: translate(0, -0.1rem);
-  }
-  
-  p.from-me::after {
-    background-color: #fff;
-    border-bottom-left-radius: 0.5rem;
-    right: -40px;
-    transform:translate(-30px, -2px);
-    width: 10px;
-  }
-  
-  p[class^="from-"] {
-    margin: 0.5rem 0;
-    width: fit-content;
-  }
-  
-  p.from-me ~ p.from-me {
-    margin: 0.25rem 0 0;
-  }
-  
-  p.from-me ~ p.from-me:not(:last-child) {
-    margin: 0.25rem 0 0;
-  }
-  
-  p.from-me ~ p.from-me:last-child {
-    margin-bottom: 0.5rem;
-  }
-  
-  p.from-them {
-    align-items: flex-start;
-    background-color: #e5e5ea;
-    color: #000;
-  }
-  
-  p.from-them:before {
-    border-bottom-right-radius: 0.8rem 0.7rem;
-    border-left: 1rem solid #e5e5ea;
-    left: -0.35rem;
-    transform: translate(0, -0.1rem);
-  }
-  
-  p.from-them::after {
-    background-color: #fff;
-    border-bottom-right-radius: 0.5rem;
-    left: 20px;
-    transform: translate(-30px, -2px);
-    width: 10px;
-  }
-  
-  .biotext {
-    margin: 10px;
-  }
+.imessage p {
+  border-radius: 1.15rem;
+  line-height: 1.25;
+  max-width: 100%;
+  padding: 0.5rem .875rem;
+  position: relative;
+  word-wrap: break-word;
+}
 
-  .buttonspace {
-    padding-bottom: 100px;
-  }
+.imessage p::before,
+.imessage p::after {
+  bottom: -0.1rem;
+  content: "";
+  height: 1rem;
+  position: absolute;
+}
 
-  .projecttxt {
-    position: relative;
-    margin-top: 100px;
-    font-size: 3rem;
-  }
+p.from-me {
+  align-self: flex-end;
+  background-color: #4b4b4b;
+  color: #fff;
+}
 
-  .skill-icon {
-    width: 200px;
-    height: 200px;
-  }
+p.from-me::before {
+  border-bottom-left-radius: 0.8rem 0.7rem;
+  border-right: 1rem solid #4b4b4b;
+  right: -0.35rem;
+  transform: translate(0, -0.1rem);
+}
+
+p.from-me::after {
+  background-color: #fff;
+  border-bottom-left-radius: 0.5rem;
+  right: -40px;
+  transform: translate(-30px, -2px);
+  width: 10px;
+}
+
+p[class^="from-"] {
+  margin: 0.5rem 0;
+  width: fit-content;
+}
+
+p.from-me~p.from-me {
+  margin: 0.25rem 0 0;
+}
+
+p.from-me~p.from-me:not(:last-child) {
+  margin: 0.25rem 0 0;
+}
+
+p.from-me~p.from-me:last-child {
+  margin-bottom: 0.5rem;
+}
+
+p.from-them {
+  align-items: flex-start;
+  background-color: #e5e5ea;
+  color: #000;
+}
+
+p.from-them:before {
+  border-bottom-right-radius: 0.8rem 0.7rem;
+  border-left: 1rem solid #e5e5ea;
+  left: -0.35rem;
+  transform: translate(0, -0.1rem);
+}
+
+p.from-them::after {
+  background-color: #fff;
+  border-bottom-right-radius: 0.5rem;
+  left: 20px;
+  transform: translate(-30px, -2px);
+  width: 10px;
+}
+
+.biotext {
+  margin: 10px;
+}
+
+.projecttxt {
+  position: relative;
+  margin-top: 100px;
+  font-size: 3rem;
+}
+
+.skill-icon {
+  width: 30px;
+  height: 30px;
+  margin: 7px;
+}
