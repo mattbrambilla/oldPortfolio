@@ -207,6 +207,17 @@ a {
   background-color: #050505;
 }
 
+.linkedin {
+  color: #fff;
+  background-color: #0a66c2;
+}
+
+.linkedin:hover {
+  color: #fff;
+  background-color: #083b6e;
+}
+
+
 .instagram {
   color: #fff;
   background-color: #cc4c8c;
@@ -419,6 +430,12 @@ p.from-them::after {
 .skill-icon {
   width: 30px;
   height: 30px;
+  margin: 7px;
+}
+
+.skillproj {
+  width: 100px;
+  height: 100px;
   margin: 7px;
 }
 
