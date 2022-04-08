@@ -44,12 +44,12 @@ p {
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: #2C92ED;
   color: white !important;
 }
 
 .navbar a:focus {
-  background-color: #04AA6D;
+  background-color: #2C92ED;
   color: white !important;
 }
 
