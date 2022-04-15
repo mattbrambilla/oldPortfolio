@@ -1,4 +1,4 @@
-# myportfolio
-My personal portfolio
+# myPortfolio
+Personal project
 
 Writing with ❤️ and Bootstrap
