@@ -8,15 +8,14 @@
 h1,h2 {
     font-weight: 200;
     font-size: 80px;
-    color: #2e2e2e;
+    color:rgb(87, 87, 87);
     padding-bottom: 5vh;
-    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue';
 }
 
 .sectiontitle {
     font-weight: 200;
     font-size: 40px;
-    color: #2e2e2e;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -24,13 +23,19 @@ h1,h2 {
 .titleproject {
     font-weight: 200;
     font-size: 80px;
-    color: #2e2e2e;
     padding-top: 5rem;
 }
 
 p {
     font-family: Arial;
-    font-size: 17px
+    font-size: 17px;
+    color:rgb(87, 87, 87);
+}
+
+li {
+    font-family: Arial;
+    font-size: 17px;
+    color:rgb(87, 87, 87);
 }
 
 .primary {
