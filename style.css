@@ -141,6 +141,13 @@ li {
     height: 100%
 }
 
+label {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color:rgb(87, 87, 87);
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue';
+}
+
 .card {
     position: relative;
     display: flex;
@@ -167,11 +174,6 @@ li {
 .nav-element.active, .show>.nav-link {
     color: #fff;
     background-color: #38b17e
-}
-
-a {
-    color: #0000ee;
-    text-decoration: underline;
 }
 
 .btn-primario {
@@ -255,6 +257,26 @@ a {
     text-align: center
 }
 
+.contactdescription {
+    height: 10rem;
+    width: 45rem;
+    border:1px;
+    border-color: #4a4a4a;
+    border-style:solid;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contactlabel {
+        height: auto;
+        width: auto;
+        border: 1px;
+        border-color: #4a4a4a;
+        border-style:solid;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+}
+
 @media screen and (max-width:500px) {
     .profilepic {
         height: 200px;
@@ -262,7 +284,7 @@ a {
         float: center;
         border: #6f7a7e1c 10px solid;
         border-radius: 100%;
-        margin-top: 10vh
+        margin-top: 10vh;
     }
 
     .profilepic2 {
