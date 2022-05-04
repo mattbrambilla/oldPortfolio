@@ -5,12 +5,12 @@
     position: relative
 }
 
-h1,h2 {
+h1, h2 {
     font-weight: 200;
     font-size: 80px;
-    color:rgb(87, 87, 87);
+    color: rgb(87, 87, 87);
     padding-bottom: 5vh;
-    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
 }
 
 .sectiontitle {
@@ -29,13 +29,13 @@ h1,h2 {
 p {
     font-family: Arial;
     font-size: 17px;
-    color:rgb(87, 87, 87);
+    color: rgb(87, 87, 87);
 }
 
 li {
     font-family: Arial;
     font-size: 17px;
-    color:rgb(87, 87, 87);
+    color: rgb(87, 87, 87);
 }
 
 .primary {
@@ -97,7 +97,8 @@ li {
 .welcomemsg {
     font-weight: 200;
     font-size: 80px;
-    color: #2e2e2e;}
+    color: #2e2e2e;
+}
 
 .imgcontainer {
     width: 300px;
@@ -144,8 +145,8 @@ li {
 label {
     font-weight: 200;
     font-size: 1.5rem;
-    color:rgb(87, 87, 87);
-    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    color: rgb(87, 87, 87);
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
 }
 
 .card {
@@ -260,26 +261,25 @@ label {
 .contactdescription {
     height: 10rem;
     width: 45rem;
-    border:1px;
+    border: 1px;
     border-color: #4a4a4a;
-    border-style:solid;
-    margin-left: 2rem;
+    border-style: solid;
     margin-bottom: 1rem;
     border: 0.15rem;
     border-color: #d3d3d3;
-    border-style:solid;
+    border-style: solid;
     border-radius: 1rem;
 }
 
 .contactlabel {
-        height: auto;
-        width: auto;
-        border: 0.15rem;
-        border-color: #d3d3d3;
-        border-style:solid;
-        margin-left: 2rem;
-        margin-bottom: 1rem;
-        border-radius: 1rem;
+    height: 2.3rem;
+    width: 45rem;
+    border: 0.15rem;
+    border-color: #d3d3d3;
+    border-style: solid;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-style: italic;
 }
 
 @media screen and (max-width:500px) {
@@ -307,7 +307,7 @@ label {
         color: #2e2e2e
     }
 
-    .h1,h2 {
+    .h1, h2 {
         font-weight: 200;
         font-size: 60px;
         color: #2e2e2e;
