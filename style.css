@@ -265,16 +265,21 @@ label {
     border-style:solid;
     margin-left: 2rem;
     margin-bottom: 1rem;
+    border: 0.15rem;
+    border-color: #d3d3d3;
+    border-style:solid;
+    border-radius: 1rem;
 }
 
 .contactlabel {
         height: auto;
         width: auto;
-        border: 1px;
-        border-color: #4a4a4a;
+        border: 0.15rem;
+        border-color: #d3d3d3;
         border-style:solid;
         margin-left: 2rem;
         margin-bottom: 1rem;
+        border-radius: 1rem;
 }
 
 @media screen and (max-width:500px) {
