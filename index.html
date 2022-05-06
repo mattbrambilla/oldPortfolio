@@ -19,6 +19,7 @@
       <a href="#bio" class="navtext rounded-pill">Bio</a>
       <a href="#skill" class="navtext rounded-pill">Skill</a>
       <a href="#portfolio" class="navtext text-dark rounded-pill">Portfolio</a>
+      <a href="#contact" class="navtext text-dark rounded-pill">Contatti</a>
     </div>
   </nav>
   <section class="homesection" id="home">
@@ -143,21 +144,57 @@
   </section>
 
   <section class="sectionalt" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <h3 class="heading mb-4">Restiamo in contatto!</h3>
+                <p>Scrivimi una mail per chiaccherare di un progetto, per un'offerta di lavoro o per qualsiasi cosa tu voglia. Bla, bla bla bla bla bla</p>
   
-    <h1 class="sectiontitle text-center" id="portfolio" alt="Responsive"> Restiamo in contatto</h1>
+                <p><img src="img/hello.svg" alt="Image" class="imgcontact"></p>
   
-    <div class="container d-flex justify-content-center">
-      <input type="text" id="fname" name="firstname" placeholder="Nome" class="contactlabel">
-    </div>
-    <div class="container d-flex justify-content-center">
-      <input type="text" id="lname" name="lastname" placeholder="Cognome" class="contactlabel">
-      <br />
-    </div>
-    <div class="container d-flex justify-content-center">
-      <textarea id="subject" name="subject" placeholder="Scrivi qualcosa.." class="contactdescription"></textarea>
-    </div>
-    <div class="container d-flex justify-content-center">
-      <input type="submit" value="Invia" class="btn btn-primario">
+  
+              </div>
+              <div class="col-md-6">
+                
+                <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Il tuo nome">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Oggetto">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                      <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Scrivi il tuo messaggio"></textarea>
+                    </div>
+                  </div> 
+                  <br/>
+                  <div class="row">
+                    <div class="col-12">
+                      <input type="submit" value="Invia messaggio" class="btn-primario">
+                    <span class="submitting"></span>
+                    </div>
+                  </div>
+                </form>
+  
+                <div id="form-message-warning mt-4"></div> 
+                <div id="form-message-success">
+                  Il tuo messaggio è stato inviato, grazie mille! Buona giornata
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
     </div>
 
   </section>

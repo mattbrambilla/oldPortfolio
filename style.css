@@ -107,6 +107,12 @@ li {
     float: left
 }
 
+.imgcontact {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
 .zoomimg {
     height: 100%;
     width: 100%;
@@ -115,6 +121,10 @@ li {
     border-radius: 100%;
     border: #6f7a7e1c 10px solid;
     object-position: 53% 40%
+}
+
+.form-control {
+    margin-bottom: 10px;
 }
 
 .homesection {
@@ -258,29 +268,7 @@ label {
     text-align: center
 }
 
-.contactdescription {
-    height: 10rem;
-    width: 45rem;
-    border: 1px;
-    border-color: #4a4a4a;
-    border-style: solid;
-    margin-bottom: 1rem;
-    border: 0.15rem;
-    border-color: #d3d3d3;
-    border-style: solid;
-    border-radius: 1rem;
-}
 
-.contactlabel {
-    height: 2.3rem;
-    width: 45rem;
-    border: 0.15rem;
-    border-color: #d3d3d3;
-    border-style: solid;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    font-style: italic;
-}
 
 @media screen and (max-width:500px) {
     .profilepic {
