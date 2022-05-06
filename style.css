@@ -38,17 +38,21 @@ li {
     color: rgb(87, 87, 87);
 }
 
+ul {
+    padding-left: 0rem;
+  }
+
 .primary {
     background-color: #04aa6d
 }
 
 .navbar {
-    background-color: #fff;
+    background-color: #fffffffa;
     overflow: hidden;
     height: auto;
     width: 100%;
     position: fixed;
-    z-index: 1030
+    z-index: 1030;
 }
 
 .navbar a {
