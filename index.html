@@ -10,9 +10,11 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/95a9ac836e.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbarMB" data-offset="50">
+<body data-spy="scroll" data-target=".navbarMB" data-bs-offset="0"  tabindex="0">
   <nav class="navbar navbar-fixed-top" id="navbarMB">
     <div class="container d-flex justify-content-center">
       <ul> <a href="#home" class="navtext active rounded-pill">Home</a> </ul>
@@ -29,7 +31,7 @@
         <img src="img/profilepic1.webp" class="profilepic" alt="Responsive" title="Immagine profilo">
       </div>
 
-      <h1 class="text-center" alt="Responsive"> Ciao👋🏻</h1>
+      <h1 class="text-center" alt="Responsive" id="home"> Ciao👋🏻</h1>
       <div class="imessage">
         <p class="from-them">Mi presento, sono Mattia Brambilla un aspirante Front-End Developer.</p>
         <p class="from-me"> Mi piace sviluppare interfacce web e siti</p>
