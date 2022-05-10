@@ -68,17 +68,17 @@ ul {
 
 .navbar a:hover {
     background-color: #f5f5f5;
-    color: #252525 !important
+    color: #252525 !important;
 }
 
 .navbar a.active {
     background-color: #2c92ed;
-    color: #fff !important
+    color: #fff !important;
 }
 
 .navbar a:focus {
-    background-color: #2c92ed;
-    color: #fff !important
+    background-color: #2277c2;
+    color: #fff !important;
 }
 
 .profilepic {
