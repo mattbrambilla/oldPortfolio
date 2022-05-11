@@ -46,7 +46,7 @@ ul {
     background-color: #04aa6d
 }
 
-.navbar {
+/* .navbar {
     position: fixed;
     background-color: #353535;
     width: 100%;
@@ -78,9 +78,10 @@ ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: none;
     margin-left: 2rem;
-}
+} */
 
-/* .navbar {
+
+.navbar {
     background-color: #fcfcfc;
     overflow: hidden;
     height: auto;
@@ -105,7 +106,7 @@ ul {
     color: #252525 !important;
 }
 
-.navbar a.active {
+.navbar aactive {
     background-color: #2c92ed;
     color: #fff !important;
 }
@@ -113,7 +114,8 @@ ul {
 .navbar a:focus {
     background-color: #2277c2;
     color: #fff !important;
-} */
+}
+
 
 .profilepic {
     height: 300px;
