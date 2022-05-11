@@ -52,10 +52,26 @@ ul {
     width: 100%;
     max-height: 2.45rem;
     z-index: 1;
+    margin: 0 auto;
 }
 
+.navtext {
+    font-size: smaller !important;
+    color: #fff;
+    text-decoration: none;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.navtext:hover {
+    font-size: smaller !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+
 .flexnav {
-    flex: auto;
+    display: flex;
 }
 
 .logo {
@@ -277,18 +293,6 @@ label {
 .envelope:hover {
     color: #fff;
     background-color: #0e665e
-}
-
-.navtext {
-    font-size: smaller !important;
-    color: #fff;
-    text-decoration: none;
-}
-
-.navtext:hover {
-    font-size: smaller !important;
-    color: #fff;
-    text-decoration: none;
 }
 
 .p {
