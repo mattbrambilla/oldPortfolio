@@ -47,6 +47,24 @@ ul {
 }
 
 .navbar {
+    position: fixed;
+    background-color: #353535;
+    width: 100%;
+    max-height: 2.45rem;
+    z-index: 1;
+}
+
+.flexnav {
+    flex: auto;
+}
+
+.logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+/* .navbar {
     background-color: #fcfcfc;
     overflow: hidden;
     height: auto;
@@ -79,7 +97,7 @@ ul {
 .navbar a:focus {
     background-color: #2277c2;
     color: #fff !important;
-}
+} */
 
 .profilepic {
     height: 300px;
@@ -262,7 +280,15 @@ label {
 }
 
 .navtext {
-    font-size: smaller !important
+    font-size: smaller !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navtext:hover {
+    font-size: smaller !important;
+    color: #fff;
+    text-decoration: none;
 }
 
 .p {
