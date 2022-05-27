@@ -55,20 +55,6 @@ ul {
     margin: 0 auto;
 }
 
-.navtext {
-    font-size: smaller !important;
-    color: #fff;
-    text-decoration: none;
-    margin-left:30px;
-    margin-right:30px;
-}
-
-.navtext:hover {
-    font-size: smaller !important;
-    color: #fff;
-    text-decoration: none;
-}
-
 
 .flexnav {
     display: flex;
@@ -106,7 +92,7 @@ ul {
     color: #252525 !important;
 }
 
-.navbar aactive {
+.navbar a:active {
     background-color: #2c92ed;
     color: #fff !important;
 }
