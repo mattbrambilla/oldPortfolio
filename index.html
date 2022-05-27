@@ -219,15 +219,20 @@
     </div>
     </div>
     </div>
-
   </section>
 
   <footer>
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgb(27, 27, 27);">
-      <p class="text-white">© Mattia Brambilla - Tutti i diritti riservati.</p>
+      <p class="text-white">© <span id="year"></span>  Mattia Brambilla - Tutti i diritti riservati.</p>
     </div>
   </footer>
 </body>
 
 </html>
+
+<script>
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+</script>
